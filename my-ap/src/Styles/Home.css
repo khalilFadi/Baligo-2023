@@ -1,0 +1,9 @@
+body{
+    text-align: center;
+    background: linear-gradient(to right, #001220, #000000e3);
+}
+.title{
+    margin-top: 25%;
+    font-size: 100px;
+    color:#f26522;
+}

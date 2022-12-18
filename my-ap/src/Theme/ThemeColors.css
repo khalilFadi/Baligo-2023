@@ -1,0 +1,12 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(Stanley.otf);
+}
+.root{
+    --Background-Color: #001220;
+}
+body{
+    background-color: #001220;
+    color: #f26522;
+    font-family: myFirstFont;
+}
