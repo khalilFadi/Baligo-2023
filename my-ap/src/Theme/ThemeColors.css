@@ -9,4 +9,15 @@ body{
     background-color: #001220;
     color: #f26522;
     font-family: myFirstFont;
+    margin-left: -1px;
+    margin-top: -0.25px;
+    overflow-x: hidden;
+
+}
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }

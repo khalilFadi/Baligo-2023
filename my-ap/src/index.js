@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import Home from './Home';
+import Home from './pages/Home';
+import FirstPage from './pages/FirstPage.js';
 import reportWebVitals from './reportWebVitals';
-
+//import the themes file 
+//TODO: check if the Themes file uploads theme to all the files
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <FirstPage/>
     <Home/>
   </React.StrictMode>
 );
