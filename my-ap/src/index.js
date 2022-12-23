@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client';
 import Home from './pages/Home';
 import FirstPage from './pages/FirstPage.js';
 import reportWebVitals from './reportWebVitals';
+import MainMenu from './Components/MainMenu';
 //import the themes file 
 //TODO: check if the Themes file uploads theme to all the files
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <MainMenu/>
     <FirstPage/>
     <Home/>
   </React.StrictMode>
