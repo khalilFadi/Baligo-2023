@@ -1,0 +1,24 @@
+@import '../Themes.css';
+.mainmenu{
+    position: fixed;
+    z-index: 100;
+    width: 100vw;
+    height: 20vh;
+}
+.mainmenu div{
+    margin-top: 2vh;
+    width: inherit;
+    text-align: end;
+}
+.mainmenu div a {
+    text-decoration: none;
+    margin: 4vw;
+    font-size: 30px;
+}
+.mainmenu div a:hover{
+    opacity: 50%;
+}
+.mainmenu div a::after{
+    border-bottom: 10px;
+    background-color: red;
+}

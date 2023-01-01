@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Homepage from './HomePage/homepage';
+import Mainmenu from './MainMenu/mainmenu';
+import Loginsignup from './LoginSignup/loginsignup';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Mainmenu />
+    <Homepage />
+    <Loginsignup/>
   </React.StrictMode>
 );
 

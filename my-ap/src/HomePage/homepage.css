@@ -1,0 +1,27 @@
+@import '../Themes.css';
+.homepage{
+    width: 100vw;
+    position: relative;
+    height: 100vh;
+    background-color: var(--BackgroundColor);
+    display: flex;
+    justify-content: center;
+    background-image: url(./resources/Group\ 21.png);
+    background-position-y: -23vw;
+    background-position-x: center;
+    background-size:120vw;
+    background-repeat: no-repeat;
+}
+.homepage .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0 0 -300px;
+    font-size: 60px;
+    color: var(--DarkerBackgroundColor);
+
+}
+.homepage .title .subtitle{
+    color: var(--maincolor);
+    font-size:120px;
+}

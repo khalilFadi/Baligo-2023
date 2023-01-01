@@ -1,0 +1,17 @@
+@import "../Themes.css";
+
+.loginsignup{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: var(--BackgroundColor);
+}
+.box{
+    width: 80vw;
+    margin-left: 10vw;
+    position: absolute;
+    height: 90vh;
+    margin-top: 5vh;
+    background-color: var(--maincolor);
+    box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.528);
+}

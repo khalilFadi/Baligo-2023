@@ -1,0 +1,15 @@
+@font-face{
+    font-family: "CustomFont";
+    src: url("Karma-Regular.ttf");
+}
+:root{
+    --maincolor: #D44C0C;
+    --BackgroundColor: #F7F3E3; 
+    --DarkerBackgroundColor: #CFCBB8;
+    --MainFont: 'CustomFont';
+}
+*{
+    color: var(--maincolor);
+    font-family: var(--MainFont);
+    margin: 0px;
+}
